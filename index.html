@@ -1,99 +1,298 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE HTML>
+<!--
+	My Portfolio page by Jonathan Harrison
+-->
+<html>
+	<head>
+		<title>Portfolio Site</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="#banner">Portfolio <span>by J HARRISON</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
 
-</head>
-<body>
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="#banner">Home</a></li>
+					<li><a href="#one">Projects</a></li>
+					<li><a href="#two">Reach out</a></li>
+				</ul>
+			</nav>
 
-    <header class="landing-page">
-        <h1>J Harrison</h1>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">About</a></li>
-                <li><a href="index.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <content>
-            <h1>Main Content</h1>
-            <card class="project-card">
-                <div class="Title"></div>
-                <div class="picture">
-                    <img src="images/place-holder.jpg">
-                </div>
-                <div class="info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <div class="button">
-                    <button><a href="https://gitlab.com/j-m-harrison/" target="_blank">Code</a></button>
-                    <button><a href="https://gitlab.com/j-m-harrison/" target="_blank">App</a></button>
-                </div>
-            </card>
-            <card class="project-card">
-                <div class="Title"></div>
-                <div class="picture">
-                    <img src="images/place-holder.jpg">
-                </div>
-                <div class="info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <div class="button">
-                    <button><a href="https://gitlab.com/j-m-harrison/" target="_blank">Code</a></button>
-                    <button><a href="https://gitlab.com/j-m-harrison/" target="_blank">App</a></button>
-                </div>
-            </card>
-            <card class="project-card">
-                <div class="Title"></div>
-                <div class="picture">
-                    <img src="images/place-holder.jpg">
-                </div>
-                <div class="info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <div class="button">
-                    <button><a href="https://gitlab.com/j-m-harrison/" target="_blank">Code</a></button>
-                    <button><a href="https://gitlab.com/j-m-harrison/" target="_blank">App</a></button>
-                </div>
-            </card>
-            <card class="project-card">
-                <div class="Title"></div>
-                <div class="picture">
-                    <img src="images/place-holder.jpg">
-                </div>
-                <div class="info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <div class="button">
-                    <button><a href="https://gitlab.com/j-m-harrison/" target="_blank">Code</a></button>
-                    <button><a href="https://gitlab.com/j-m-harrison/" target="_blank">App</a></button>
-                </div>
-            </card>
-        </content>
-    </main>
-    <footer>
-        <h1>Footer</h1>
-    </footer>
+		<!-- Banner -->
+			<section id="banner" class="banner full">
+				<article>
+					<img src="images/pic-2.webp" alt="" />
+					<div class="inner">
+						<header>
+							<p>I am a full stack engineer</p>
+							<h2>J Harrison</h2>
+							<a target="_blank" href="./docs/resume.pdf" class="button alt">Resume</a>
+							<a href="#one" class="button alt">Projects</a>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/pic-1.webp" alt="" />
+					<div class="inner">
+						<header>
+							<p>Available For Work</p>
+							<h2>J Harrison</h2>
+							<a target="_blank" href="./docs/resume.pdf" class="button alt">Resume</a>
+							<a href="#one" class="button alt">Projects</a>
+						</header>
+					</div>
+				</article>
+				<article>
+					<img src="images/pic-3.webp"  alt="" />
+					<div class="inner">
+						<header>
+							<p>Check my resume and projects below</p>
+							<h2>J Harrison</h2>
+							<a target="_blank" href="./docs/resume.pdf" class="button alt" >Resume</a>
+							<a href="#one" class="button alt" >Projects</a>
+						</header>
+					</div>
+				</article>
+			</section>
 
-    
-    
-</body>
+		<!-- One -->
+			<section id="one" class="wrapper style2">
+				<div class="inner">
+					<div class="grid-style">
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/hazel.webp" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>C++ | C# | Lua | HLSL | OpenGL</p>
+										<h2>Hazel Engine</h2>
+									</header>
+									<p>A custom built 2D and 3D editing tool for UI and environment design. 
+										Built in modern C++19 with C# scripting and Lua support. 
+										Web front end implementation with Blazor and WebAssembly backend.
+										ImGUI framework and native desktop support on Windows, Linux and MacOS.</p>
+									<footer class="align-center">
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/Hazel" class="button alt" >Source</a>
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/Hazel" class="button alt" >Website</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/banshee-engine.webp" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>C++ | C# | Lua | Python | Vulkan</p>
+										<h2>Banshee Engine</h2>
+									</header>
+									<p>Full 3D development engine with frontend editor written in C++17 for engine and C# for scriptable API. 
+										Implements multiple well known import and export tools for all modern workflow tools such as Photoshop, 
+										blender, maya, Wwise, FBX and more. Supports Windows, Linux and MacOS with Android and iOS with Metal to come.</p>
+									<footer class="align-center">
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/BansheeEngine" class="button alt" >Source</a>
+										<a target="_blank" href="https://docs.banshee3d.com/Managed/" class="button alt" >Website</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/SDL-UI.webp" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>C++ | C# | SDL | OpenGL</p>
+										<h2>SDL Framework UI</h2>
+									</header>
+									<p> Custom made framework and set of APIs to create and generate web UI and 3D browser games using a native application on Windows. 
+										Can also run in browser. Enables rapid development of stylish designs with JS, CSS and HTML auto generated on demand.
+										Supports all modern browsers tested on Chrome, Safari, Firefox and Opera + iOS and Android.</p>
+									<footer class="align-center">
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/SDL-OpenGL-UI" class="button alt" >Source</a>
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/SDL-OpenGL-UI" class="button alt" >Website</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/Jammming.webp" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>HTML5 | CSS3 | JS | React | Node</p>
+										<h2>Jammming - Instrumentel</h2>
+									</header>
+									<p>Custom made react web app for creating, customizing, saving and forwarding playlists to your Spotify account.
+										Uses Spotify API to pull data based on search query and list. Syncs with account via tokenisation. 
+										Will also provide snippets of song to sample and links to artist, album, song on spotify website/native app.</p>
+									<footer class="align-center">
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/instumental" class="button alt" >Source</a>
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/instumental" class="button alt" >Website</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/ravenous.webp" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>HTML | CSS | JS | React | Node</p>
+										<h2>Ravenous</h2>
+									</header>
+									<p> A fully interactive React web app with access to the Yelp API.
+										You can search for resturaunts and takeaways and see reviews and contact info.
+										Makes use of react components, API plugins and data pull requests as well
+										as a responsive layout for all devices.</p>
+									<footer class="align-center">
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/ravenous" class="button alt" >Source</a>
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/ravenous" class="button alt" >Website</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="box">
+								<div class="image fit">
+									<img src="images/piano-player.webp" alt="" />
+								</div>
+								<div class="content">
+									<header class="align-center">
+										<p>HTML5 | CSS3 | JS | Angular</p>
+										<h2>Piano Player</h2>
+									</header>
+									<p>Early vanilla JS based web app for interactive song and piano melody creation. 
+										Generated dynamically using a component based model using classes and objects. 
+										Generate custom songs, lyrics and notes/keys with audio.</p>
+									<footer class="align-center">
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/js-piano-events" class="button alt" >Source</a>
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/js-piano-events" class="button alt" >Website</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>I know full stack engineering tech stacks</p>
+						<marquee>
+							<scrollammount=1000>
+								<loop>
+								<img src="images/logos/CRUD.webp" alt="" />
+								<img src="images/logos/react.webp" alt="" />
+								<img src="images/logos/angular.webp" alt="" />
+								<img src="images/logos/vue.webp" alt="" />
+								<img src="images/logos/node.webp" alt="" />
+								<img src="images/logos/csharp.webp" alt="" />
+								<img src="images/logos/net.webp" alt="" />
+								<img src="images/logos/cpp.webp" alt="" />
+								<img src="images/logos/xamarin.webp" alt="" />
+								<img src="images/logos/java.webp" alt="" />
+								<img src="images/logos/kotlin.webp" alt="" />
+								<img src="images/logos/python.webp" alt="" />
+								<img src="images/logos/golang.webp" alt="" />
+								<img src="images/logos/postgres.webp" alt="" />
+								<img src="images/logos/sql.webp" alt="" />
+								<img src="images/logos/mongodb.webp" alt="" />
+								<img src="images/logos/azure.webp" alt="" />
+								<img src="images/logos/aws.webp" alt="" />
+								<img src="images/logos/gcp.webp" alt="" />
+								<img src="images/logos/firebase.webp" alt="" />
+								<img src="images/logos/SDL.webp" alt="" />
+								<img src="images/logos/bash.webp" alt="" />
+								</loop>
+							</scrollammount>
+						</marquee>
+					</header>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper style2">
+				<div class="inner">
+					<h3>Reach out to me...</h3>
+					
+					<form method="post" name="form-to-action" action="form-to-email.php">
+						<div class="row uniform">
+							<div class="6u 12u$(xsmall)">
+								<input type="text" name="name" id="name" value="" placeholder="Name" />
+							</div>
+							<div class="6u$ 12u$(xsmall)">
+								<input type="email" name="email" id="email" value="" placeholder="Email" />
+							</div>
+							<!-- Break -->
+							<div class="6u 12u$(small)">
+								<input type="checkbox" id="copy" name="copy">
+								<label for="copy">Email me a copy of this message</label>
+							</div>
+							<div class="6u$ 12u$(small)">
+								<input type="checkbox" id="human" name="human" checked>
+								<label for="human">I am a human and not a robot</label>
+							</div>
+							<!-- Break -->
+							<div class="12u$">
+								<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+							</div>
+							<!-- Break -->
+							<div class="12u$">
+								<ul class="actions">
+									<li><input type="submit" name="submit" value="Send Message" /></li>
+									<li><input type="reset" value="Reset" class="alt" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="https://gitlab.com/j-m-harrison" target="_blank" class="icon fa-github"><span class="label">Twitter</span></a></li>
+						<li><a href="https://linkedin.com/in/jonathan-harrison-287761aa" target="_blank" class="icon fa-linkedin"><span class="label">Facebook</span></a></li>
+						<li><a href="https://twitter.com/jmharrison15" target="_blank" class="icon fa-twitter"><span class="label">Instagram</span></a></li>
+						<li><a href="mailto:j-m-harrison@outloo.com" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
