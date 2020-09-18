@@ -4,10 +4,18 @@ A custom made website to demonstrate my web dev skill set and link to other proj
 
 http://jharrison-portfolio.42web.io/
 
+## Landing Page Banner
+
 ![Portfolio Website Screenshot](images/homepage.png)
+
+## Collapsable Hamburger Menu 
 
 ![Portfolio Website Screenshot](images/side-menu.png)
 
+## Project Cards
+
 ![Portfolio Website Screenshot](images/projects.png)
+
+## Skills and Contact Methods
 
 ![Portfolio Website Screenshot](images/contact-form.png)
