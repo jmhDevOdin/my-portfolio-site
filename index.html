@@ -4,10 +4,12 @@
 -->
 <html>
 	<head>
-		<title>Portfolio Site</title>
+		<title>DEV portfolio-site V0.2</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="./assets/js/gen_validatorv31.js" type="text/javascript"></script>
+		</head>
 	</head>
 	<body>
 
@@ -29,35 +31,65 @@
 		<!-- Banner -->
 			<section id="banner" class="banner full">
 				<article>
-					<img src="images/pic-2.webp" alt="" />
+					<img src="images/pic-2.webp" alt="banner" />
 					<div class="inner">
 						<header>
-							<p>I am a full stack engineer</p>
+							<p class="typing" >I am a full stack engineer</p>
 							<h2>J Harrison</h2>
 							<a target="_blank" href="./docs/resume.pdf" class="button alt">Resume</a>
 							<a href="#one" class="button alt">Projects</a>
+							<hr>
+							<hr>
+							<hr>
+							<section class="example example--1">
+								<span class="scroll-icon">
+									<span class="scroll-icon__wheel-outer">
+										<span class="scroll-icon__wheel-inner"></span>
+									</span>
+								</span>
+							</section>
 						</header>
 					</div>
 				</article>
 				<article>
-					<img src="images/pic-1.webp" alt="" />
+					<img src="images/pic-1.webp" alt="banner" />
 					<div class="inner">
 						<header>
-							<p>Available For Work</p>
+							<p class="typing">Available For Work</p>
 							<h2>J Harrison</h2>
 							<a target="_blank" href="./docs/resume.pdf" class="button alt">Resume</a>
 							<a href="#one" class="button alt">Projects</a>
+							<hr>
+							<hr>
+							<hr>
+							<section class="example example--1">
+								<span class="scroll-icon">
+									<span class="scroll-icon__wheel-outer">
+										<span class="scroll-icon__wheel-inner"></span>
+									</span>
+								</span>
+							</section>
 						</header>
 					</div>
 				</article>
 				<article>
-					<img src="images/pic-3.webp"  alt="" />
+					<img src="images/pic-3.webp"  alt="banner" />
 					<div class="inner">
 						<header>
-							<p>Check my resume and projects below</p>
+							<p class="typing">Check my resume and projects below</p>
 							<h2>J Harrison</h2>
 							<a target="_blank" href="./docs/resume.pdf" class="button alt" >Resume</a>
 							<a href="#one" class="button alt" >Projects</a>
+							<hr>
+							<hr>
+							<hr>
+							<section class="example example--1">
+								<span class="scroll-icon">
+									<span class="scroll-icon__wheel-outer">
+										<span class="scroll-icon__wheel-inner"></span>
+									</span>
+								</span>
+							</section>
 						</header>
 					</div>
 				</article>
@@ -93,16 +125,16 @@
 						<div>
 							<div class="box">
 								<div class="image fit">
-									<img src="images/banshee-engine.webp" alt="" />
+									<img src="images/banshee-engine.webp" alt="Banshee Engine" />
 								</div>
 								<div class="content">
 									<header class="align-center">
-										<p>C++ | C# | Lua | Python | Vulkan</p>
+										<p>C++ | C# | Lua | Python | Vulkan | Metal</p>
 										<h2>Banshee Engine</h2>
 									</header>
 									<p>Full 3D development engine with frontend editor written in C++17 for engine and C# for scriptable API. 
 										Implements multiple well known import and export tools for all modern workflow tools such as Photoshop, 
-										blender, maya, Wwise, FBX and more. Supports Windows, Linux and MacOS with Android and iOS with Metal to come.</p>
+										blender, maya, Wwise, FBX and more. Supports Windows, Linux, MacOS, iOS and Android.</p>
 									<footer class="align-center">
 										<a target="_blank" href="https://gitlab.com/j-m-harrison/BansheeEngine" class="button alt" >Source</a>
 										<a target="_blank" href="https://docs.banshee3d.com/Managed/" class="button alt" >Website</a>
@@ -114,7 +146,7 @@
 						<div>
 							<div class="box">
 								<div class="image fit">
-									<img src="images/SDL-UI.webp" alt="" />
+									<img src="images/SDL-UI.webp" alt="SDL UI Editor" />
 								</div>
 								<div class="content">
 									<header class="align-center">
@@ -135,7 +167,7 @@
 						<div>
 							<div class="box">
 								<div class="image fit">
-									<img src="images/Jammming.webp" alt="" />
+									<img src="images/Jammming.webp" alt="Instrumrntal App" />
 								</div>
 								<div class="content">
 									<header class="align-center">
@@ -156,7 +188,7 @@
 						<div>
 							<div class="box">
 								<div class="image fit">
-									<img src="images/ravenous.webp" alt="" />
+									<img src="images/ravenous.webp" alt="Ravenous App" />
 								</div>
 								<div class="content">
 									<header class="align-center">
@@ -178,7 +210,7 @@
 						<div>
 							<div class="box">
 								<div class="image fit">
-									<img src="images/piano-player.webp" alt="" />
+									<img src="images/piano-player.webp" alt="Piano Game App" />
 								</div>
 								<div class="content">
 									<header class="align-center">
@@ -204,35 +236,38 @@
 			<section id="two" class="wrapper style3">
 				<div class="inner">
 					<header class="align-center">
-						<p>I know full stack engineering tech stacks</p>
-						<marquee>
-							<scrollammount=1000>
-								<loop>
-								<img src="images/logos/CRUD.webp" alt="" />
-								<img src="images/logos/react.webp" alt="" />
-								<img src="images/logos/angular.webp" alt="" />
-								<img src="images/logos/vue.webp" alt="" />
-								<img src="images/logos/node.webp" alt="" />
-								<img src="images/logos/csharp.webp" alt="" />
-								<img src="images/logos/net.webp" alt="" />
-								<img src="images/logos/cpp.webp" alt="" />
-								<img src="images/logos/xamarin.webp" alt="" />
-								<img src="images/logos/java.webp" alt="" />
-								<img src="images/logos/kotlin.webp" alt="" />
-								<img src="images/logos/python.webp" alt="" />
-								<img src="images/logos/golang.webp" alt="" />
-								<img src="images/logos/postgres.webp" alt="" />
-								<img src="images/logos/sql.webp" alt="" />
-								<img src="images/logos/mongodb.webp" alt="" />
-								<img src="images/logos/azure.webp" alt="" />
-								<img src="images/logos/aws.webp" alt="" />
-								<img src="images/logos/gcp.webp" alt="" />
-								<img src="images/logos/firebase.webp" alt="" />
-								<img src="images/logos/SDL.webp" alt="" />
-								<img src="images/logos/bash.webp" alt="" />
-								</loop>
-							</scrollammount>
-						</marquee>
+						<p>I have knowledge and experience in these tech stacks</p>
+							<div class="marquee"></div>
+								<marquee>
+									<scrollammount=100000>
+										<loop>
+										<img src="images/logos/CRUD.webp" alt="Web Stack Icons" />
+										<img src="images/logos/react.webp" alt="React Icon" />
+										<img src="images/logos/angular.webp" alt="Angular Icon" />
+										<img src="images/logos/vue.webp" alt="Vue Icon" />
+										<img src="images/logos/node.webp" alt="NodeJS Icon" />
+										<img src="images/logos/csharp.webp" alt="C# Icon" />
+										<img src="images/logos/net.webp" alt=".Net Core Icon" />
+										<img src="images/logos/cpp.webp" alt="C++ Icon" />
+										<img src="images/logos/xamarin.webp" alt="Xamarin Icon" />
+										<img src="images/logos/java.webp" alt="Java Icon" />
+										<img src="images/logos/kotlin.webp" alt="Kotlin icons" />
+										<img src="images/logos/python.webp" alt="Python Icon" />
+										<img src="images/logos/golang.webp" alt="Golang Gopher Icon" />
+										<img src="images/logos/postgres.webp" alt="Postgres Elephant Icon" />
+										<img src="images/logos/sql.webp" alt="SQL Database Icon" />
+										<img src="images/logos/mongodb.webp" alt="MongoDB Icon" />
+										<img src="images/logos/azure.webp" alt="Azure Icon" />
+										<img src="images/logos/aws.webp" alt="Amazon Web Services Icon" />
+										<img src="images/logos/gcp.webp" alt="Google Cloud Platform Icon" />
+										<img src="images/logos/firebase.webp" alt="Google Firebase Icon" />
+										<img src="images/logos/SDL.webp" alt="Steam SDL 2.0 Icon" />
+										<img src="images/logos/bash.webp" alt="Bash Scripting Icon" />
+										</loop>
+									</scrollammount>
+								</marquee>
+							</div>
+						</header>
 					</header>
 				</div>
 			</section>
@@ -242,13 +277,13 @@
 				<div class="inner">
 					<h3>Reach out to me...</h3>
 					
-					<form method="post" name="form-to-action" action="form-to-email.php">
+					<form method="post" name="myform" id="myform" action="#">
 						<div class="row uniform">
 							<div class="6u 12u$(xsmall)">
-								<input type="text" name="name" id="name" value="" placeholder="Name" />
+								<input type="text" name="name" id="name" value="" placeholder="Name" required="required" maxlength="50"/>
 							</div>
 							<div class="6u$ 12u$(xsmall)">
-								<input type="email" name="email" id="email" value="" placeholder="Email" />
+								<input type="email" name="email" id="email" value="" placeholder="Email" required="required" maxlength="50" />
 							</div>
 							<!-- Break -->
 							<div class="6u 12u$(small)">
@@ -261,7 +296,7 @@
 							</div>
 							<!-- Break -->
 							<div class="12u$">
-								<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+								<textarea name="message" id="message" placeholder="Enter your message (5000 character limit)" rows="6" required="required" maxlength="1000"></textarea>
 							</div>
 							<!-- Break -->
 							<div class="12u$">
@@ -272,6 +307,21 @@
 							</div>
 						</div>
 					</form>
+
+					<script type="text/javascript">
+						var frmvalidator = new Validator("myform");
+						frmvalidator.addValidation("name", "req", "Please enter your name");
+						frmvalidator.addValidation("name", "maxlen=40",
+							"Max length for FirstName is 40");
+
+						frmvalidator.addValidation("email", "maxlen=50");
+						frmvalidator.addValidation("email", "req");
+						frmvalidator.addValidation("email", "email", "Please enter a valid email address");
+
+						frmvalidator.addValidation("message", "maxlen=1000", "Message needs to be less than 1000 characters");
+						frmvalidator.addValidation("message", "req", "Please enter a message");
+					</script>
+
 				</div>
 			</section>
 
@@ -282,7 +332,7 @@
 						<li><a href="https://gitlab.com/j-m-harrison" target="_blank" class="icon fa-github"><span class="label">Twitter</span></a></li>
 						<li><a href="https://linkedin.com/in/jonathan-harrison-287761aa" target="_blank" class="icon fa-linkedin"><span class="label">Facebook</span></a></li>
 						<li><a href="https://twitter.com/jmharrison15" target="_blank" class="icon fa-twitter"><span class="label">Instagram</span></a></li>
-						<li><a href="mailto:j-m-harrison@outloo.com" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="mailto:j-m-harrison@outlook.com" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 					</ul>
 				</div>
 			</footer>
