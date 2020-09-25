@@ -1,15 +1,11 @@
-<!DOCTYPE HTML>
-<!--
-	My Portfolio page by Jonathan Harrison
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>DEV portfolio-site V0.2</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Portfolio</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="./assets/js/gen_validatorv31.js" type="text/javascript"></script>
-		</head>
+		<script src="./assets/js/gen_validatorv31.js"></script>
 	</head>
 	<body>
 
@@ -24,23 +20,22 @@
 				<ul class="links">
 					<li><a href="#banner">Home</a></li>
 					<li><a href="#one">Projects</a></li>
-					<li><a href="#two">Reach out</a></li>
+					<li><a href="#three">Reach Out</a></li>
 				</ul>
 			</nav>
 
 		<!-- Banner -->
 			<section id="banner" class="banner full">
 				<article>
-					<img src="images/pic-2.webp" alt="banner" />
+					<img src="images/pic-1.webp" alt="banner" />
 					<div class="inner">
 						<header>
 							<p class="typing" >I am a full stack engineer</p>
 							<h2>J Harrison</h2>
-							<a target="_blank" href="./docs/resume.pdf" class="button alt">Resume</a>
-							<a href="#one" class="button alt">Projects</a>
-							<hr>
-							<hr>
-							<hr>
+							<a target="_blank" href="./docs/resume.pdf" class="button alt">My Resume</a>
+                            <hr>
+                            <hr>
+                            <hr>
 							<section class="example example--1">
 								<span class="scroll-icon">
 									<span class="scroll-icon__wheel-outer">
@@ -57,11 +52,10 @@
 						<header>
 							<p class="typing">Available For Work</p>
 							<h2>J Harrison</h2>
-							<a target="_blank" href="./docs/resume.pdf" class="button alt">Resume</a>
-							<a href="#one" class="button alt">Projects</a>
-							<hr>
-							<hr>
-							<hr>
+							<a target="_blank" href="./docs/resume.pdf" class="button alt">My Resume</a>
+                            <hr>
+                            <hr>
+                            <hr>
 							<section class="example example--1">
 								<span class="scroll-icon">
 									<span class="scroll-icon__wheel-outer">
@@ -73,16 +67,15 @@
 					</div>
 				</article>
 				<article>
-					<img src="images/pic-3.webp"  alt="banner" />
+					<img src="images/pic-1.webp"  alt="banner" />
 					<div class="inner">
 						<header>
-							<p class="typing">Check my resume and projects below</p>
+							<p class="typing">Check my projects below</p>
 							<h2>J Harrison</h2>
-							<a target="_blank" href="./docs/resume.pdf" class="button alt" >Resume</a>
-							<a href="#one" class="button alt" >Projects</a>
-							<hr>
-							<hr>
-							<hr>
+							<a target="_blank" href="./docs/resume.pdf" class="button alt" >My Resume</a>
+                            <hr>
+                            <hr>
+                            <hr>
 							<section class="example example--1">
 								<span class="scroll-icon">
 									<span class="scroll-icon__wheel-outer">
@@ -98,6 +91,7 @@
 		<!-- One -->
 			<section id="one" class="wrapper style2">
 				<div class="inner">
+                    <h2>Check out my projects...</h2>
 					<div class="grid-style">
 
 						<div>
@@ -107,13 +101,14 @@
 								</div>
 								<div class="content">
 									<header class="align-center">
-										<p>C++ | C# | Lua | HLSL | OpenGL</p>
+										<p>C++ | C# | LUA | HLSL | OPENGL</p>
 										<h2>Hazel Engine</h2>
 									</header>
 									<p>A custom built 2D and 3D editing tool for UI and environment design. 
 										Built in modern C++19 with C# scripting and Lua support. 
 										Web front end implementation with Blazor and WebAssembly backend.
-										ImGUI framework and native desktop support on Windows, Linux and MacOS.</p>
+										ImGUI framework and native desktop support on Windows, Linux and MacOS.
+                                        Currently setup with full 2D and 3D physics. Currently adding support for Vulkan, Android and iOS Metal.</p>
 									<footer class="align-center">
 										<a target="_blank" href="https://gitlab.com/j-m-harrison/Hazel" class="button alt" >Source</a>
 										<a target="_blank" href="https://gitlab.com/j-m-harrison/Hazel" class="button alt" >Website</a>
@@ -125,19 +120,19 @@
 						<div>
 							<div class="box">
 								<div class="image fit">
-									<img src="images/banshee-engine.webp" alt="Banshee Engine" />
+									<img src="images/covid19-tracker-screenshot.webp" alt="Covid-19 Tracker" />
 								</div>
 								<div class="content">
 									<header class="align-center">
-										<p>C++ | C# | Lua | Python | Vulkan | Metal</p>
-										<h2>Banshee Engine</h2>
+										<p>HTML5 | CSS3 | JS | REACT | FIREBASE</p>
+										<h2>Covid-19 Tracker</h2>
 									</header>
-									<p>Full 3D development engine with frontend editor written in C++17 for engine and C# for scriptable API. 
-										Implements multiple well known import and export tools for all modern workflow tools such as Photoshop, 
-										blender, maya, Wwise, FBX and more. Supports Windows, Linux, MacOS, iOS and Android.</p>
+									<p>React based web app hosted on Firebase pulling live Covid 19 data and rendering statistics in an informative layout with dynamic real time database. 
+                                        Live map view and top stats cards. Dynamically updates from data API pulls from disease.sh and provides chart analysis, country analytics, active cases, recoveries and deaths.
+                                        Built with interaction and information in mind for the current pandemic. Fully responsive and mobile supported.</p>
 									<footer class="align-center">
-										<a target="_blank" href="https://gitlab.com/j-m-harrison/BansheeEngine" class="button alt" >Source</a>
-										<a target="_blank" href="https://docs.banshee3d.com/Managed/" class="button alt" >Website</a>
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/covid19-tracker" class="button alt" >Source</a>
+										<a target="_blank" href="https://covid-19-tracker-b6944.web.app/" class="button alt" >Website</a>
 									</footer>
 								</div>
 							</div>
@@ -146,19 +141,19 @@
 						<div>
 							<div class="box">
 								<div class="image fit">
-									<img src="images/SDL-UI.webp" alt="SDL UI Editor" />
+									<img src="images/booster.webp" alt="Booster Chat App" />
 								</div>
 								<div class="content">
 									<header class="align-center">
-										<p>C++ | C# | SDL | OpenGL</p>
-										<h2>SDL Framework UI</h2>
+										<p>HTML5 | CSS3 | REACT | REDUX | FIREBASE</p>
+										<h2>Booster</h2>
 									</header>
-									<p> Custom made framework and set of APIs to create and generate web UI and 3D browser games using a native application on Windows. 
-										Can also run in browser. Enables rapid development of stylish designs with JS, CSS and HTML auto generated on demand.
-										Supports all modern browsers tested on Chrome, Safari, Firefox and Opera + iOS and Android.</p>
+									<p> Custom made React app based on Slack, built from the ground up with modern HTML, CSS and JS with React, React Redux,
+                                        Firebase hosting, Google Authentication and FireStone real time database storage. The app is fully responsive with 
+                                        flex css snappy responsiveness with the React Context API. Secure, fast, and able to handle thousands of chats.</p>
 									<footer class="align-center">
-										<a target="_blank" href="https://gitlab.com/j-m-harrison/SDL-OpenGL-UI" class="button alt" >Source</a>
-										<a target="_blank" href="https://gitlab.com/j-m-harrison/SDL-OpenGL-UI" class="button alt" >Website</a>
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/booster" class="button alt" >Source</a>
+										<a target="_blank" href="https://slack-clone-2c1f6.web.app/" class="button alt" >Website</a>
 									</footer>
 								</div>
 							</div>
@@ -167,19 +162,19 @@
 						<div>
 							<div class="box">
 								<div class="image fit">
-									<img src="images/Jammming.webp" alt="Instrumrntal App" />
+									<img src="images/instrumental.webp" alt="Instrumentel App" />
 								</div>
 								<div class="content">
 									<header class="align-center">
-										<p>HTML5 | CSS3 | JS | React | Node</p>
-										<h2>Jammming - Instrumentel</h2>
+										<p>HTML5 | CSS3 | JS | REACT | FIREBASE</p>
+										<h2>Instrumental</h2>
 									</header>
 									<p>Custom made react web app for creating, customizing, saving and forwarding playlists to your Spotify account.
 										Uses Spotify API to pull data based on search query and list. Syncs with account via tokenisation. 
 										Will also provide snippets of song to sample and links to artist, album, song on spotify website/native app.</p>
 									<footer class="align-center">
 										<a target="_blank" href="https://gitlab.com/j-m-harrison/instumental" class="button alt" >Source</a>
-										<a target="_blank" href="https://gitlab.com/j-m-harrison/instumental" class="button alt" >Website</a>
+										<a target="_blank" href="https://instrumental-e7268.web.app/" class="button alt" >Website</a>
 									</footer>
 								</div>
 							</div>
@@ -192,7 +187,7 @@
 								</div>
 								<div class="content">
 									<header class="align-center">
-										<p>HTML | CSS | JS | React | Node</p>
+										<p>HTML | CSS | JS | REACT | FIREBASE</p>
 										<h2>Ravenous</h2>
 									</header>
 									<p> A fully interactive React web app with access to the Yelp API.
@@ -201,7 +196,7 @@
 										as a responsive layout for all devices.</p>
 									<footer class="align-center">
 										<a target="_blank" href="https://gitlab.com/j-m-harrison/ravenous" class="button alt" >Source</a>
-										<a target="_blank" href="https://gitlab.com/j-m-harrison/ravenous" class="button alt" >Website</a>
+										<a target="_blank" href="https://ravenous-2774a.web.app/" class="button alt" >Website</a>
 									</footer>
 								</div>
 							</div>
@@ -210,19 +205,19 @@
 						<div>
 							<div class="box">
 								<div class="image fit">
-									<img src="images/piano-player.webp" alt="Piano Game App" />
+									<img src="images/hulu-clone.webp" alt="Hulu Clone App" />
 								</div>
 								<div class="content">
 									<header class="align-center">
-										<p>HTML5 | CSS3 | JS | Angular</p>
-										<h2>Piano Player</h2>
+										<p>HTML5 | CSS3 | JS | REACT | FIREBASE</p>
+										<h2>Hulu Clone</h2>
 									</header>
-									<p>Early vanilla JS based web app for interactive song and piano melody creation. 
-										Generated dynamically using a component based model using classes and objects. 
-										Generate custom songs, lyrics and notes/keys with audio.</p>
+									<p>Early React based web app for interactive fetching movies and TV shows by filter and search. 
+										Generated dynamically using the TMDB api from Hulu as this mimics the functionality.
+										Generate list of title, blurb, release date, like count and genre. Hosted on Firebase.</p>
 									<footer class="align-center">
-										<a target="_blank" href="https://gitlab.com/j-m-harrison/js-piano-events" class="button alt" >Source</a>
-										<a target="_blank" href="https://gitlab.com/j-m-harrison/js-piano-events" class="button alt" >Website</a>
+										<a target="_blank" href="https://gitlab.com/j-m-harrison/hulu-clone" class="button alt" >Source</a>
+										<a target="_blank" href="https://hulu-clone-a5fe8.web.app/" class="button alt" >Website</a>
 									</footer>
 								</div>
 							</div>
@@ -237,37 +232,28 @@
 				<div class="inner">
 					<header class="align-center">
 						<p>I have knowledge and experience in these tech stacks</p>
-							<div class="marquee"></div>
-								<marquee>
-									<scrollammount=100000>
-										<loop>
-										<img src="images/logos/CRUD.webp" alt="Web Stack Icons" />
-										<img src="images/logos/react.webp" alt="React Icon" />
-										<img src="images/logos/angular.webp" alt="Angular Icon" />
-										<img src="images/logos/vue.webp" alt="Vue Icon" />
-										<img src="images/logos/node.webp" alt="NodeJS Icon" />
-										<img src="images/logos/csharp.webp" alt="C# Icon" />
-										<img src="images/logos/net.webp" alt=".Net Core Icon" />
-										<img src="images/logos/cpp.webp" alt="C++ Icon" />
-										<img src="images/logos/xamarin.webp" alt="Xamarin Icon" />
-										<img src="images/logos/java.webp" alt="Java Icon" />
-										<img src="images/logos/kotlin.webp" alt="Kotlin icons" />
-										<img src="images/logos/python.webp" alt="Python Icon" />
-										<img src="images/logos/golang.webp" alt="Golang Gopher Icon" />
-										<img src="images/logos/postgres.webp" alt="Postgres Elephant Icon" />
-										<img src="images/logos/sql.webp" alt="SQL Database Icon" />
-										<img src="images/logos/mongodb.webp" alt="MongoDB Icon" />
-										<img src="images/logos/azure.webp" alt="Azure Icon" />
-										<img src="images/logos/aws.webp" alt="Amazon Web Services Icon" />
-										<img src="images/logos/gcp.webp" alt="Google Cloud Platform Icon" />
-										<img src="images/logos/firebase.webp" alt="Google Firebase Icon" />
-										<img src="images/logos/SDL.webp" alt="Steam SDL 2.0 Icon" />
-										<img src="images/logos/bash.webp" alt="Bash Scripting Icon" />
-										</loop>
-									</scrollammount>
-								</marquee>
-							</div>
-						</header>
+                            <marquee class='marqueeIcons'>
+								<img src='./images/logos/crud.png' alt='Web Stack Icons' />
+								<img src='./images/logos/react.png' alt='React Icon' />
+								<img src='./images/logos/angular.png' alt='Angular Icon' />
+								<img src='./images/logos/vue.png' alt='Vue Icon' />
+								<img src='./images/logos/node.png' alt='NodeJS Icon' />
+								<img src='./images/logos/csharp.png' alt='C# Icon' />
+								<img src='./images/logos/net.png' alt='.Net Core Icon' />
+								<img src='./images/logos/cpp.png' alt='C++ Icon' />
+								<img src='./images/logos/xamarin.png' alt='Xamarin Icon' />
+								<img src='./images/logos/java.png' alt='Java Icon' />
+								<img src='./images/logos/kotlin.png' alt='Kotlin icons' />
+								<img src='./images/logos/python.png' alt='Python Icon' />
+								<img src='./images/logos/golang.png' alt='Golang Gopher Icon' />
+								<img src='./images/logos/postgres.png' alt='Postgres Elephant Icon' />
+								<img src='./images/logos/sql.png' alt='SQL Database Icon' />
+								<img src='./images/logos/mongodb.png' alt='MongoDB Icon' />
+								<img src='./images/logos/azure.png' alt='Azure Icon' />
+								<img src='./images/logos/aws.png' alt='Amazon Web Services Icon' />
+								<img src='./images/logos/gcp.png' alt='Google Cloud Platform Icon' />
+								<img src='./images/logos/firebase.png' alt='Google Firebase Icon' />
+                            </marquee>
 					</header>
 				</div>
 			</section>
@@ -275,7 +261,7 @@
 		<!-- Three -->
 			<section id="three" class="wrapper style2">
 				<div class="inner">
-					<h3>Reach out to me...</h3>
+					<h2>Reach out to me...</h2>
 					
 					<form method="post" name="myform" id="myform" action="#">
 						<div class="row uniform">
