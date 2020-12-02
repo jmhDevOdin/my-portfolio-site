@@ -3943,6 +3943,10 @@
 							color: #000;
 						}
 
+						#menu > ul.links > li > a:not(.button):target {
+							color: #000;
+						}
+
 					#menu > ul.links > li > .button {
 						display: block;
 						margin: 0.5rem 0 0 0;
